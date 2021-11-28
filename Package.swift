@@ -11,6 +11,13 @@ let package = Package(
             name: "AppSpectorSDKE2E",
             targets: ["AppSpectorSDKE2E"])
     ],
+    dependencies: [
+        .package(
+            name: "themis",
+            url: "https://github.com/cossacklabs/themis",
+            "0.13.12" ..< "1.0.0"
+        )
+    ],
     targets: [
         .binaryTarget(
             name: "AppSpectorSDKE2E",
