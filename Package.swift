@@ -9,14 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "AppSpectorSDKE2E",
-            targets: ["AppSpectorSDKE2E"])
-    ],
-    dependencies: [
-        .package(
-            name: "themis",
-            url: "https://github.com/cossacklabs/themis",
-            "0.13.12" ..< "1.0.0"
-        )
+            targets: ["AppSpectorUmbrella"])
     ],
     targets: [
         .binaryTarget(
@@ -24,6 +17,18 @@ let package = Package(
             url: "https://github.com/appspector/ios-sdk/releases/download/1.4.5/AppSpectorSDKE2E.xcframework.zip",
             checksum: "78064690dcd0a7127ac8e013ec29ca0b4ec61620b31921d181b505059c3520b8",
             dependencies: ["themis"]
+        ),
+        .binaryTarget(
+            name: "themis",
+            url: "https://github.com/cossacklabs/themis/releases/download/0.13.12/themis.xcframework.zip",
+            checksum: "c74f65d4918884220efe99c3195001fa8aabc8030ad85f8ef30d2bfed11065a3"
+        ),
+        .target(
+            name: "AppSpectorUmbrella",
+            dependencies: [
+                .target(name: "AppSpectorSDKE2E"),
+                .target(name: "themis")
+            ]
         )
     ]
 )
