@@ -11,6 +11,12 @@ let package = Package(
             name: "AppSpectorSDKE2E",
             targets: ["AppSpectorUmbrella"])
     ],
+    dependencies: [
+        .package(
+            name: "themis",
+            url: "https://github.com/cossacklabs/themis/releases/download/0.13.12/themis.xcframework.zip"
+        )
+    ],
     targets: [
         .binaryTarget(
             name: "AppSpectorSDKE2E",
