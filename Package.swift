@@ -15,7 +15,7 @@ let package = Package(
         .package(
             name: "themis",
             url: "https://github.com/cossacklabs/themis/releases/download/0.13.12/themis.xcframework.zip",
-            from: "1.0.0"
+            from: "0.13.12"
         )
     ],
     targets: [
