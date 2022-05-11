@@ -13,8 +13,9 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            name: "themis",
+//            name: "themis",
             url: "https://github.com/cossacklabs/themis/releases/download/0.13.12/themis.xcframework.zip",
+//            branch: "master"
             from: "0.13.12"
         )
     ],
