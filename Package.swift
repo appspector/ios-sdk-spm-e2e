@@ -23,7 +23,7 @@ let package = Package(
         .binaryTarget(
             name: "AppSpectorSDKE2E",
             url: "https://github.com/appspector/ios-sdk-spm-e2e/blob/416535a169fd7d56ab2dfe9acb2bc961c92a2468/AppSpectorSDKE2E.xcframework.zip",
-            checksum: "bb978a02890958ca7d40c1b36421bf400ebfb30c9d737becf629c6a7ec83e163"
+            checksum: "a98725040f7598bee89e267510f3d7bc9b9b5b373a53e688c70a007ca2f44f23"
         ),
         .binaryTarget(
             name: "themis",
