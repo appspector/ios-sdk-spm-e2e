@@ -33,7 +33,8 @@ let package = Package(
             dependencies: [
                 .target(name: "AppSpectorSDKE2E"),
                 .target(name: "themis")
-            ]
+            ],
+            path: "./"
         )
     ]
 )
