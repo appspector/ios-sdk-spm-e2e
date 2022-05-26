@@ -1,0 +1,6 @@
+framework module AppSpectorSDKE2E {
+  umbrella header "AppSpectorSDKE2E.h"
+
+  export *
+  module * { export * }
+}
