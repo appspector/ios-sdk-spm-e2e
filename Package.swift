@@ -72,8 +72,8 @@ let package = Package(
                 .target(name: "AppSpectorSDKE2E"),
                 .target(name: "themis")
 //                .product(name: "themis", package: "themis")
-            ]
-//            path: "targets"
+            ],
+            path: "targets"
         ),
         .binaryTarget(
             name: "AppSpectorSDKE2E",
