@@ -64,7 +64,7 @@ let package = Package(
             dependencies: [
                 .target(name: "AppSpectorSDKE2EWrapper")
             ],
-            path: "/"
+            path: "./"
         ),
         .target(
             name: "AppSpectorSDKE2EWrapper",
@@ -73,7 +73,7 @@ let package = Package(
                 .target(name: "themis")
 //                .product(name: "themis", package: "themis")
             ],
-            path: "/"
+            path: "./"
         ),
         .binaryTarget(
             name: "AppSpectorSDKE2E",
