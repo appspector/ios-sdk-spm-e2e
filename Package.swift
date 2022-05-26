@@ -63,8 +63,8 @@ let package = Package(
             name: "AppSpectorSDKE2ETarget",
             dependencies: [
                 .target(name: "AppSpectorSDKE2EWrapper")
-            ]
-//            path: "targets"
+            ],
+            path: "targets"
         ),
         .target(
             name: "AppSpectorSDKE2EWrapper",
