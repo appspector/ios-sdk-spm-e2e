@@ -49,7 +49,7 @@ let package = Package(
         .library(
             name: "AppSpector",
 //            targets: ["AppSpectorSDKE2ETarget"]
-            targets: ["AppSpectorSDKE2E", "themis"]
+            targets: ["AppSpectorSDKE2E"]
         )
     ],
 //    dependencies: [
