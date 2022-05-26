@@ -47,7 +47,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "AppSpector",
+            name: "AppSpectorSDKE2E",
 //            targets: ["AppSpectorSDKE2ETarget"]
             targets: ["AppSpectorSDKE2E"]
         )
