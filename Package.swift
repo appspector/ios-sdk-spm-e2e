@@ -28,7 +28,7 @@ let package = Package(
     products: [
         .library(
             name: "AppSpectorSDKE2E",
-            targets: ["AppSpectorUmbrella"])
+            targets: ["AppSpectorSDKE2E"])
     ],
     dependencies: [
         .package(
@@ -42,20 +42,20 @@ let package = Package(
             name: "AppSpectorSDKE2E",
             url: "https://github.com/appspector/ios-sdk-spm-e2e/releases/download/1.4.5/AppSpectorSDKE2E.xcframework.zip",
             checksum: "bb978a02890958ca7d40c1b36421bf400ebfb30c9d737becf629c6a7ec83e163"
-        ),
-        .target(
-            name: "AppSpectorUmbrella",
-            dependencies: [
-                .target(name: "AppSpectorSDKE2E"),
-                .target(name: "themis")
-            ],
-            path: "./"
-        ),
-        .binaryTarget(
-            name: "themis",
-            url: "https://github.com/cossacklabs/themis/releases/download/0.14.0/themis.xcframework.zip",
-            checksum: "182587c9070b94e552816d3cc174d64ea0f0a64d5b19483210bcf3dcac4d2658"
         )
+//        .target(
+//            name: "AppSpectorUmbrella",
+//            dependencies: [
+//                .target(name: "AppSpectorSDKE2E"),
+//                .target(name: "themis")
+//            ],
+//            path: "./"
+//        ),
+//        .binaryTarget(
+//            name: "themis",
+//            url: "https://github.com/cossacklabs/themis/releases/download/0.14.0/themis.xcframework.zip",
+//            checksum: "182587c9070b94e552816d3cc174d64ea0f0a64d5b19483210bcf3dcac4d2658"
+//        )
     ]
 )
 
