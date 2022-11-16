@@ -33,8 +33,8 @@ let package = Package(
     dependencies: [
         .package(
             name: "themis",
-            url: "https://github.com/cossacklabs/themis/releases/download/0.14.0/themis.xcframework.zip",
-            from: "0.14.0"
+            url: "https://github.com/cossacklabs/themis/releases/download/0.14.9/themis.xcframework.zip",
+            from: "0.14.9"
         )
     ],
     targets: [
