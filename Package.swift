@@ -40,8 +40,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AppSpectorSDKE2E",
-            url: "https://github.com/appspector/ios-sdk-spm-e2e/releases/download/1.4.8/AppSpectorSDKE2E.xcframework.zip",
-            checksum: "41c2a0f933b6c7fccda3f84431f218bebc00de4958380396c1eca57e58ef822f"
+            url: "https://github.com/appspector/ios-sdk/releases/download/1.4.8/AppSpectorSDKE2E.xcframework.zip",
+            checksum: "c1a3a56089e9f2ee15521953f6df9ec932693c8309c30be2467e3f0ea46c2fd7"
         )
 //        .target(
 //            name: "AppSpectorUmbrella",
