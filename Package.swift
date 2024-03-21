@@ -27,8 +27,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "AppSpectorSDKE2E",
-            targets: ["AppSpectorSDKE2E"])
+            name: "AppSpector",
+            targets: ["AppSpectorSDK", "AppSpectorSDKE2E"])
     ],
     dependencies: [
         .package(
